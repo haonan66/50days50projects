@@ -1,0 +1,36 @@
+.all-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .search-wrapper {
+        width: 270px;
+        background-color: transparent;
+
+        input {
+            width: 200px;
+            height: 48px;
+            border: none;
+            padding-left: 10px;
+            font-size: 16px;
+            transition: all .5s;
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            width: 55px;
+            height: 50px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            vertical-align: middle;
+            background-color: #fff;
+        }
+
+    }
+}

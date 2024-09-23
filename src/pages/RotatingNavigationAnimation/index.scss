@@ -1,0 +1,29 @@
+.all-wrapper {
+    position: relative;
+    width: 100%;
+    background-color: #121212;
+    overflow: hidden;
+    .news-wrapper {
+        width: 100vw;
+        background-color: #fff;
+        transform-origin: 0 0;
+        transition: all 1s;  
+
+
+        .news {
+            width: 55%;
+            margin: 0 auto;
+            padding: 100px 0;
+            i {
+                font-size: 14px;
+            }
+            img {
+                width: 100%;
+            }
+            p, h4 {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+

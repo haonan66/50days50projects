@@ -1,0 +1,14 @@
+.all-wrap{
+    width: 100%;
+    background-color: rebeccapurple;
+    .head-bar {
+        width: 100%;
+        height: 60px;
+        background-color: rgb(34, 3, 54);
+    }
+    .container-wrap{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,21 @@
+.all-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  h1 {
+    font-size: 30px;
+  }
+  .all-content-wrapper {
+    transition: all 1s;
+    &:nth-child(2n) {
+      transform: translateX(-9999px);
+    }
+    &:nth-child(2n + 1) {
+      transform: translateX(9999px);
+    }
+  }
+}

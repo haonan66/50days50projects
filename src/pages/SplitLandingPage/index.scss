@@ -1,0 +1,19 @@
+.split-wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    .split-left,
+    .split-right {
+        flex: 1;
+        height: 100%;
+        overflow: hidden;
+        transition: all 1s;
+        &:hover {
+            flex: 3;
+            overflow: hidden;
+        }
+    }
+
+}

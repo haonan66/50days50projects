@@ -1,0 +1,81 @@
+.all-wrap {
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    text-align: center;
+    .container-wrap {
+        .top-title {
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .tip {
+            color: white;
+            font-size: 18px;
+        }
+        .container {
+            width: 150px;
+            height: 320px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: white;
+            border: 4px solid blue;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            overflow: hidden;
+            .top-container {
+                width: 100%;
+                height: 320px;
+                line-height: 320px;
+                color: blue;
+                font-size: 16px;
+                text-align: center;
+                transition: all 1s;
+                overflow: hidden;
+            }
+            .bottom-container {
+                width: 100%;
+                height: 0;
+                background: #000;
+                color: blue;
+                font-size: 32px;
+                font-weight: 700;
+                text-align: center;
+                transition: all 1s;
+            }
+        }
+        .bottom-select-wrap {
+            width: 100%;
+            height: 400px;
+            .bottom-tip {
+                color: white;
+                font-size: 16px;
+            }
+            .select-glass {
+                width: 240px;
+                height: 300px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                .select-glass-item {
+                    width: 42px;
+                    height: 100px;
+                    line-height: 100px;
+                    margin: 0 5px;
+                    text-align: center;
+                    border: 4px solid blue;
+                    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    background-color: rgb(201, 225, 253);
+                    cursor: pointer;
+                    overflow: hidden;
+                    transition: all 1s;
+                }
+                .select-glass-item-active {
+                    background-color: rgb(58, 132, 241);
+                }
+            }
+            
+        }
+    }
+}

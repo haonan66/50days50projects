@@ -1,0 +1,54 @@
+.card-wrapper {
+    width: 800px;
+    height: auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px blueviolet;
+    
+    .card {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        .card-header {
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            h4 {
+                font-size: 20px;
+                font-weight: 700;
+                color: #aaa;
+            }
+        }
+        .card-content {
+            height: auto;
+            line-height: 1.5;
+            text-align: center;
+            font-size: 24px;
+
+        }
+        .card-footer {
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            button {
+                width: 180px;
+                height: 40px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                color: #fff;
+                font-weight: 700;
+                background-color: blueviolet;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+  .card-wrapper {
+    width: 80%;
+  }
+}

@@ -1,0 +1,23 @@
+.nav-wrapper {
+    position: fixed;
+    bottom: 100px;
+    transform: translateX(-200px);
+    transition: all 1s;
+    li {
+        position: relative;
+        span {
+            color: #909;
+            font-size: 20px;
+        }
+        &:nth-child(1) {
+            left: 40px;
+        }
+        &:nth-child(2) {
+            left: 50px;
+        }
+        &:nth-child(3) {
+            left: 60px;
+        }
+    }
+
+}

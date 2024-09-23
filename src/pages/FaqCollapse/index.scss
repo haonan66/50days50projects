@@ -1,0 +1,17 @@
+:root {
+    background-color: #ddd;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .questions-wrapper {
+        width: 600px;
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+    }
+}
