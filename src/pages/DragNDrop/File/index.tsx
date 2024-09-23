@@ -33,6 +33,12 @@ export default function File() {
     e.currentTarget.style.backgroundColor = "#fff";
     // 当元素被放下时，将放下的区域的cursor设置为 pointer
     e.currentTarget.style.cursor = "pointer";
+    // 当文件放到该元素上是，自动打开该文件
+    if (e.dataTransfer.files.length > 0) {
+      const file = e.dataTransfer.files[0];
+      const url = URL.createObjectURL(file);
+      window.open(url);
+    }
   };
 
   return (
