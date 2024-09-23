@@ -1,8 +1,8 @@
-import DragNDrop from "./pages/DragNDrop";
+import DrawingApp from "./pages/DrawingApp";
 export default function App() {
   return (
     <>
-      <DragNDrop />
+      <DrawingApp />
     </>
   );
 }
