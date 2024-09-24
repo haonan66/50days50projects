@@ -1,8 +1,8 @@
-import DrawingApp from "./pages/DrawingApp";
+import StickyNavbar from "./pages/StickyNavbar";
 export default function App() {
   return (
     <>
-      <DrawingApp />
+      <StickyNavbar />
     </>
   );
 }

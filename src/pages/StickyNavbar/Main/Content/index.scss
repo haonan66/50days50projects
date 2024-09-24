@@ -1,0 +1,17 @@
+.content-wrap {
+    width: 1280px;
+    margin: 0 auto;
+    .one, .two {
+        width: 100%;
+        margin: 20px 0;
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        p {
+            font-style: 18px;
+            line-height: 2;
+        }
+    }
+}
