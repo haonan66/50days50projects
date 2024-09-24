@@ -1,8 +1,8 @@
-import DrawingApp from "./pages/DrawingApp";
+import ContentPlaceholder from "./pages/ContentPlaceholder";
 export default function App() {
   return (
     <>
-      <DrawingApp />
+      <ContentPlaceholder />
     </>
   );
 }
