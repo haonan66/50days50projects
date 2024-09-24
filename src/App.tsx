@@ -1,8 +1,8 @@
-import DrawingApp from "./pages/DrawingApp";
+import KineticLoader from "./pages/KineticLoader";
 export default function App() {
   return (
     <>
-      <DrawingApp />
+      <KineticLoader />
     </>
   );
 }
