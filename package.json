@@ -10,12 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
     "@types/lodash": "^4.17.7",
     "@types/node": "^22.5.0",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
     "reset-css": "^5.0.2",
     "sass-embedded": "^1.77.8",
     "sass-loader": "^16.0.1",

@@ -1,8 +1,8 @@
-import StickyNavbar from "./pages/StickyNavbar";
+import DoubleVerticalSlider from "./pages/DoubleVerticalSlider";
 export default function App() {
   return (
     <>
-      <StickyNavbar />
+      <DoubleVerticalSlider />
     </>
   );
 }
