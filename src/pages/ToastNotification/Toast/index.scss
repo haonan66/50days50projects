@@ -1,0 +1,29 @@
+.toast-wrap {
+    position: fixed;
+    right: 20px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: aquamarine;
+    color: #fff;
+}
+
+.error {
+    background-color: red;
+    color: #fff;
+}
+
+.warning {
+    background-color: yellow;
+    color: #fff;
+}
+
+.primary {
+    background-color: #000;
+    color: #fff;
+}

@@ -7,6 +7,8 @@ import store from "./store";
 import { Provider } from "react-redux";
 import App from "./App.tsx";
 import "reset-css";
+// 引入全局组件 Toast
+import "./pages/ToastNotification/Toast/index.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <Provider store={store}>

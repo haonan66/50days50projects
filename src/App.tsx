@@ -1,8 +1,8 @@
-import DoubleVerticalSlider from "./pages/DoubleVerticalSlider";
+import ToastNotification from "./pages/ToastNotification";
 export default function App() {
   return (
     <>
-      <DoubleVerticalSlider />
+      <ToastNotification />
     </>
   );
 }
