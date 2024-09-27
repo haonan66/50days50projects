@@ -1,0 +1,60 @@
+.user-card-wrap {
+    padding: 40px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    .left-wrap {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        img {
+            width: 120px;
+            text-align: center;
+            border: 10px solid blueviolet;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+    }
+    .right-wrap {
+        margin-left: 40px;
+        .top-name {
+            h2 {
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color: #777;
+            }
+        }
+        .middle-info-wrap {
+            color: #777;
+            margin-bottom: 20px;
+            .null {
+                margin-bottom: 20px;
+            }
+            .info {
+                display: flex;
+                div {
+                    margin-right: 40px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .bottom-repo-wrap {
+            max-width: 550px;
+            display: flex;
+            flex-wrap: wrap;
+            .repo-title {
+                height: 20px;
+                line-height: 20px;
+                padding: 5px;
+                margin: 0 10px 10px 0;
+                font-size: 14px;
+                background-color: blueviolet;
+                color: #fff;
+            }
+        }
+    }
+}
