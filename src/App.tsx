@@ -1,8 +1,8 @@
-import ToastNotification from "./pages/ToastNotification";
+import DoubleClickHeart from "./pages/DoubleClickHeart";
 export default function App() {
   return (
     <>
-      <ToastNotification />
+      <DoubleClickHeart />
     </>
   );
 }
