@@ -1,0 +1,38 @@
+.all-wrap {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224, 122, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .text-wrap {
+        height: 40px;
+        line-height: 40px;
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .footer {
+        position: absolute;
+        bottom: 20px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: rgba($color: #000000, $alpha: .2);
+        span {
+            vertical-align: middle;
+        }
+        input {
+            width: 45px;
+            height: 25px;
+            vertical-align: middle;
+            border: none;
+            outline: none;
+            background-color: rgba($color: #ffffff, $alpha: .4);
+            font-size: 18px;
+        }
+    }
+}

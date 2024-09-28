@@ -1,8 +1,8 @@
-import ToastNotification from "./pages/ToastNotification";
+import AutoTextEffect from "./pages/AutoTextEffect";
 export default function App() {
   return (
     <>
-      <ToastNotification />
+      <AutoTextEffect />
     </>
   );
 }
