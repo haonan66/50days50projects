@@ -1,0 +1,74 @@
+.all-wrap {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .password-generator-wrap {
+        width: 330px;
+        height: 350px;
+        background-color: darkblue;
+        padding: 10px;
+        text-align: center;
+        h2 {
+            margin-top: 10px;
+            line-height: 1.5;
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+        }
+        .input-wrap {
+            width: 90%;
+            margin: 10px auto;
+            background-color: rgba($color: #000000, $alpha: .5);
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            input  {
+                width: 80%;
+                height: 40px;
+                padding: 5px;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                color: #fff;
+                font-size: 18px;
+            }
+            button {
+                width: 15%;
+                height: 40px;
+                border: none;
+                background-color: blueviolet;
+                cursor: pointer;
+            }
+        }
+        .length-wrap, .upper-wrap, .lower-wrap, .numbers-wrap, .symbols-wrap {
+            width: 90%;
+            height: 40px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                color: #fff;
+                vertical-align: middle;
+            }
+            input {
+                height: 20px;
+                border: none;
+                outline: none;
+            }
+        }
+        .button-wrap {
+            width: 90%;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 auto;
+            text-align: center; 
+            cursor: pointer;
+            color: #fff;
+            background-color: blueviolet;
+        }
+    }
+}

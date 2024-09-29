@@ -1,8 +1,8 @@
-import AutoTextEffect from "./pages/AutoTextEffect";
+import PasswordGenerator from "./pages/PasswordGenerator";
 export default function App() {
   return (
     <>
-      <AutoTextEffect />
+      <PasswordGenerator />
     </>
   );
 }
