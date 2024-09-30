@@ -1,8 +1,8 @@
-import PasswordGenerator from "./pages/PasswordGenerator";
+import GoodCheapFast from "./pages/GoodCheapFast";
 export default function App() {
   return (
     <>
-      <PasswordGenerator />
+      <GoodCheapFast />
     </>
   );
 }
