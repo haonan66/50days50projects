@@ -1,0 +1,35 @@
+.notes-wrap {
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    .header {
+        width: 100%;
+        height: 35px;
+        background-color: #9EC862;
+        .right-header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .edit-wrap, .delete-wrap {
+                margin: 0 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .white-pad {
+        width: 100%;
+        height: 400px;
+        background-color: #fff;
+        textarea {
+            width: calc(100% - 40px);
+            height: calc(100% - 40px);
+            border: none;
+            outline: none;
+            margin: 0;
+            padding: 20px;
+            overflow: auto;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.notes-app-wrap {
+    width: 100%;
+    height: 100vh;
+    background-color: slateblue;
+    overflow: auto;
+    .header {
+        margin-top: 20px;
+        width: 100%;
+        height: 35px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row-reverse;
+        button {
+            position: fixed;
+            right: 20px;
+            width: 100px;
+            height: 35px;
+            background-color: #9EC862;
+            border: none;
+            outline: none;
+            vertical-align: middle;
+            color: #fff;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+    .notes-container {
+        float: left;
+        overflow: hidden;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;        
+    }
+}
