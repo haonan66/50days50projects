@@ -1,8 +1,8 @@
-import NotesApp from "./pages/NotesApp";
+import AnimatedCountdown from "./pages/AnimatedCountdown";
 export default function App() {
   return (
     <>
-      <NotesApp />
+      <AnimatedCountdown />
     </>
   );
 }

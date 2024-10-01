@@ -7,6 +7,7 @@ import store from "./store";
 import { Provider } from "react-redux";
 import App from "./App.tsx";
 import "reset-css";
+import "animate.css";
 // 引入全局组件 Toast
 import "./pages/ToastNotification/Toast/index.tsx";
 
