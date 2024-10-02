@@ -1,8 +1,8 @@
-import AnimatedCountdown from "./pages/AnimatedCountdown";
+import ImageCarousel from "./pages/ImageCarousel";
 export default function App() {
   return (
     <>
-      <AnimatedCountdown />
+      <ImageCarousel />
     </>
   );
 }
