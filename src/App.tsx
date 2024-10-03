@@ -1,8 +1,8 @@
-import ImageCarousel from "./pages/ImageCarousel";
+import Hoverboard from "./pages/Hoverboard";
 export default function App() {
   return (
     <>
-      <ImageCarousel />
+      <Hoverboard />
     </>
   );
 }
