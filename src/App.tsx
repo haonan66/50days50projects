@@ -1,8 +1,8 @@
-import Hoverboard from "./pages/Hoverboard";
+import Pokedex from "./pages/Pokedex";
 export default function App() {
   return (
     <>
-      <Hoverboard />
+      <Pokedex />
     </>
   );
 }
