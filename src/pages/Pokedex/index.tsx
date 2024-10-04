@@ -40,9 +40,9 @@ export default function Pokedex() {
   }
 
   // 通过 useCallback 缓存该函数
-  const getPokemonList = async () => {
+  const getPokemonList = useCallback(async () => {
     await processRequestsWithConcurrency(urls);
-  }
+  }, []);
 
   useEffect(() => {
     getPokemonList();

@@ -1,8 +1,8 @@
-import Pokedex from "./pages/Pokedex";
+import MobileTabNavigation from "./pages/MobileTabNavigation";
 export default function App() {
   return (
     <>
-      <Pokedex />
+      <MobileTabNavigation />
     </>
   );
 }
