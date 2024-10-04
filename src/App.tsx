@@ -1,8 +1,8 @@
-import MobileTabNavigation from "./pages/MobileTabNavigation";
+import PasswordStrengthBackground from "./pages/PasswordStrengthBackground";
 export default function App() {
   return (
     <>
-      <MobileTabNavigation />
+      <PasswordStrengthBackground />
     </>
   );
 }
