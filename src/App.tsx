@@ -1,8 +1,8 @@
-import PasswordStrengthBackground from "./pages/PasswordStrengthBackground";
+import BoxesBackground from "./pages/BoxesBackground";
 export default function App() {
   return (
     <>
-      <PasswordStrengthBackground />
+      <BoxesBackground />
     </>
   );
 }
