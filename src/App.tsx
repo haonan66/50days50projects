@@ -1,8 +1,8 @@
-import BoxesBackground from "./pages/BoxesBackground";
+import VerifyAccount from "./pages/VerifyAccount";
 export default function App() {
   return (
     <>
-      <BoxesBackground />
+      <VerifyAccount />
     </>
   );
 }
