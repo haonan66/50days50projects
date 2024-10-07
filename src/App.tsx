@@ -1,8 +1,8 @@
-import VerifyAccount from "./pages/VerifyAccount";
+import LiveUserFilter from "./pages/LiveUserFilter";
 export default function App() {
   return (
     <>
-      <VerifyAccount />
+      <LiveUserFilter />
     </>
   );
 }

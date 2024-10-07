@@ -1,0 +1,32 @@
+.user-wrap {
+    width: 90%;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+    .left-wrap {
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+    }
+    .right-wrap {
+        margin-left: 20px;
+        .name {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .location {
+            width: 200px;
+            margin-top: 15px;
+            font-size: 14px;
+            // 设置单行文本溢出隐藏
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}
