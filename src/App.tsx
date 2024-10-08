@@ -1,8 +1,8 @@
-import LiveUserFilter from "./pages/LiveUserFilter";
+import FeedbackUiDesign from "./pages/FeedbackUiDesign";
 export default function App() {
   return (
     <>
-      <LiveUserFilter />
+      <FeedbackUiDesign />
     </>
   );
 }
