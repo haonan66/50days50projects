@@ -1,0 +1,30 @@
+.slider-wrap {
+    position: relative;
+    width: 300px;
+    height: 12px;
+    border-radius: 15px;
+    background-color: purple;
+    cursor: pointer;
+    .circle {
+        position: absolute;
+        top: -5px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid purple;
+        border-radius: 50%;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    .tip {
+        position: absolute;
+        top: -40px;
+        left: -30px;
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.2);
+        background-color: #fff;
+    }
+}

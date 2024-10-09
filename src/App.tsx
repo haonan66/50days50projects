@@ -1,8 +1,8 @@
-import FeedbackUiDesign from "./pages/FeedbackUiDesign";
+import CustomRangeSlider from "./pages/CustomRangeSlider";
 export default function App() {
   return (
     <>
-      <FeedbackUiDesign />
+      <CustomRangeSlider />
     </>
   );
 }
