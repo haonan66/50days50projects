@@ -1,8 +1,8 @@
-import CustomRangeSlider from "./pages/CustomRangeSlider";
+import QuizApp from "./pages/QuizApp";
 export default function App() {
   return (
     <>
-      <CustomRangeSlider />
+      <QuizApp />
     </>
   );
 }
