@@ -1,0 +1,14 @@
+.box-wrap {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .switcher-wrap {
+        width: 650px;
+        background-color: #476CE4;
+        padding: 50px;
+        border-radius: 10px;
+    }
+}

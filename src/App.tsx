@@ -1,8 +1,8 @@
-import QuizApp from "./pages/QuizApp";
+import TestimonialBoxSwitcher from "./pages/TestimonialBoxSwitcher";
 export default function App() {
   return (
     <>
-      <QuizApp />
+      <TestimonialBoxSwitcher />
     </>
   );
 }

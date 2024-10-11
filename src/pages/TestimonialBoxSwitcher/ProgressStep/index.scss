@@ -1,0 +1,11 @@
+.step-wrap {
+    width: 100%;
+    .step {
+        position: absolute;
+        top: -20px;
+        width: 0;
+        height: 4px;
+        background: #e6e6e6;
+        transition: width 1s;
+    }
+}

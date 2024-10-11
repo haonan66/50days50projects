@@ -1,0 +1,30 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    h1 {
+        font-size: 30px;
+        color: #7F98EC;
+        // 设置无法选中
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    .main-wrap {
+        position: relative;
+        line-height: 1.5;
+        color: #fff;
+        .bottom-wrap {
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                vertical-align: middle;
+                margin-right: 20px;
+            }
+        }
+    }
+}
