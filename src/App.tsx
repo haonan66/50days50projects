@@ -1,8 +1,8 @@
-import TestimonialBoxSwitcher from "./pages/TestimonialBoxSwitcher";
+import RandomImageFeed from "./pages/RandomImageFeed";
 export default function App() {
   return (
     <>
-      <TestimonialBoxSwitcher />
+      <RandomImageFeed />
     </>
   );
 }

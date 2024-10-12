@@ -1,0 +1,23 @@
+.random-image-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .main-wrap {
+        width: 1000px;
+        h1 {
+            margin: 30px 0;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .image-wrap {
+            width: 100%;            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img {
+                margin: 10px;
+            }
+        }   
+    }
+}
