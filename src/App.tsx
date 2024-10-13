@@ -1,8 +1,8 @@
-import RandomImageFeed from "./pages/RandomImageFeed";
+import TodoList from "./pages/TodoList";
 export default function App() {
   return (
     <>
-      <RandomImageFeed />
+      <TodoList />
     </>
   );
 }
