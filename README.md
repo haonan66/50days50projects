@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# 50 projects 50 days（React + TS）
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+本项目是 `50projects50days` 的 `react` 版，项目均使用最新 `react18` + `tsx` 语法实现。
 
-Currently, two official plugins are available:
+> 原项目链接地址：[50projects50days](https://50projects50days.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 项目启动
 
-## Expanding the ESLint configuration
+```bash
+# 克隆代码
+git clone https://github.com/haonan66/50days50projects.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# 切换目录
+cd icodeths-project
 
-- Configure the top-level `parserOptions` property like this:
+# 安装 pnpm
+npm install pnpm -g
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# 安装依赖
+pnpm install
+
+# 启动运行
+pnpm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 项目切换
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+项目默认展示的是第 `50` 个 `project` ，如果想要切换则须更改 `App.tsx` 的文件内容。示例（以切换到 `day30` 的 `AutoTextEffect` 项目为例）：
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+原 `App.tsx` 文件：
+
+```ts
+import InsectCatchGame from "./pages/InsectCatchGame";
+export default function App() {
+  return (
+    <>
+      <InsectCatchGame />
+    </>
+  );
+}
+
+```
+
+修改后的 `App.tsx` 文件：
+
+```ts
+import AutoTextEffectfrom "./pages/AutoTextEffect";
+export default function App() {
+  return (
+    <>
+      <AutoTextEffect/>
+    </>
+  );
+}
 ```
