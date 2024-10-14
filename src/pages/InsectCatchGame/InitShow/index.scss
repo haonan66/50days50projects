@@ -1,0 +1,22 @@
+.init-show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h1 {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    button {
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        color: #516DFF;
+        cursor: pointer;
+    }
+}

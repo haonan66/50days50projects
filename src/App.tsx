@@ -1,8 +1,8 @@
-import TodoList from "./pages/TodoList";
+import InsectCatchGame from "./pages/InsectCatchGame";
 export default function App() {
   return (
     <>
-      <TodoList />
+      <InsectCatchGame />
     </>
   );
 }
